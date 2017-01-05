@@ -1,7 +1,7 @@
-=CWRU HvZ Documentation
+# CWRU HvZ Documentation
 This file is a dump of random notes I've taken over the past few months on how to develop for cwru-hvz-source. This project will have more structure eventually.
 
-==Developing Locally
+## Developing Locally
 To get this running on your machine, pull down the source code and then run:
 
 `bundle install`
@@ -14,14 +14,14 @@ Next, set up the development (and test?) databases using [this tutorial](https:/
 
 All Rake DB tasks: http://jacopretorius.net/2014/02/all-rails-db-rake-tasks-and-what-they-do.html
 
-== Twilio Integration
+## Twilio Integration
 To set up SMS integration with Twilio, set the following environment variables:
 `TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER`
 
 Web server vs. app server:
 http://www.justinweiss.com/articles/a-web-server-vs-an-app-server/
 
-==Notes found on server
+## Notes found on server
 How do I do things?
 
 The crontab contains code to start up the HvZ web and HvZ worker on reboot
